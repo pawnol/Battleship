@@ -25,4 +25,4 @@ class Player():
         '''
         Places all the ships on the ocean board.
         '''
-    
+        pass
