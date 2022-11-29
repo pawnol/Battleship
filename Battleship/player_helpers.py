@@ -25,7 +25,7 @@ class Board():
         '''
         Returns the piece at a given coordinate on the board.
         '''
-        pass
+        return self.grid[coordinate.row, coordinate.column]
     
     def update_piece(self, coordinate, piece):
         '''
@@ -53,7 +53,13 @@ class Coordinate():
     '''
     Represents a location on the board. Consists of a row and column.
     '''
-    pass
+    def __init__(self, row, column):
+        '''
+        Initializes the row and column instance variables with the passed
+        values.
+        '''
+        self.row = enum.Row[row]
+        self.column = column
 
 class Ship():
     '''
