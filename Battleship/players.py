@@ -21,7 +21,7 @@ class Player():
         '''
         pass
     
-    def place_ships():
+    def place_ships(self):
         '''
         Places all the ships on the ocean board.
         '''
