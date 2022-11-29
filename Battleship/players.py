@@ -3,9 +3,6 @@ Implements the algorithms for player functionality. Contains the
 Player and AIPlayer classes.
 '''
 
-__author__ = "Pawelski"
-__date__ = "2022/11/22"
-
 import battleship_ui, player_helpers, battleship_enumerations as enum
 
 class Player():

@@ -3,9 +3,6 @@ Implements the main algorithms for the game Battleship. Contains
 the Battleship class. Acts as the launching point for the application.
 '''
 
-__author__ = "Nolan Pawelski"
-__date__ = "2022/11/22"
-
 import players, battleship_ui
 
 class Battleship():
