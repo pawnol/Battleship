@@ -2,9 +2,9 @@
 Contains all the enumerations used for the game.
 '''
 
-from enum import Enum
+from enum import IntEnum
 
-class Piece(Enum):
+class Piece(IntEnum):
     '''
     Different pieces that can be placed on the board.
     '''
@@ -17,7 +17,7 @@ class Piece(Enum):
     SUBMARINE = 6
     DESTROYER = 7
 
-class Row(Enum):
+class Row(IntEnum):
     '''
     Letter associations with the rows.
     '''
@@ -32,7 +32,7 @@ class Row(Enum):
     I = 8
     J = 9
 
-class Direction(Enum):
+class Direction(IntEnum):
     '''
     Different directions a ship can face.
     '''

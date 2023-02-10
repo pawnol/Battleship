@@ -3,7 +3,7 @@ Implements the low level algorithms for representing boards, coordinates,
 and ships.
 '''
 
-from main import battleship_enumerations as enum
+import Main.battleship_enumerations as enum
 
 class Board():
     '''
@@ -25,7 +25,7 @@ class Board():
         '''
         Returns the piece at a given coordinate on the board.
         '''
-        return self.grid[coordinate.row, coordinate.column]
+        return self.grid[coordinate.row][coordinate.column]
     
     def update_piece(self, coordinate, piece):
         '''
