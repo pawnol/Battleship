@@ -3,7 +3,7 @@ Implements the low level algorithms for representing boards, coordinates,
 and ships.
 '''
 
-import Main.battleship_enumerations as enum
+import main.battleship_enumerations as enum
 
 class Board():
     '''
